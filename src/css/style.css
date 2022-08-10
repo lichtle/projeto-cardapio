@@ -1,0 +1,94 @@
+/* GLOBAL */
+
+body {
+  background-color: #cfbae1;
+}
+
+ul {
+  list-style: none;
+}
+
+/* FONTES */
+
+header h1,
+section h2,
+.product-title,
+.price {
+  font-family: "Roboto Serif", serif;
+  color: #2d2c2a;
+  text-transform: uppercase;
+}
+
+header p,
+.product-description {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  padding: 32px 0;
+}
+
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+}
+
+header h1 span {
+  color: #531253;
+}
+
+header p {
+  opacity: 70%;
+}
+
+/* SECTION */
+
+section,
+header {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+section h2 {
+  background-color: #c59fc9;
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+.product-title {
+  margin-bottom: 8px;
+}
+
+.product-description {
+  opacity: 60%;
+  line-height: 21px; /* Espaçamento entre as linhas */
+}
+
+/* LIST ITEMS */
+
+ul li {
+  margin-bottom: 16px;
+}
+
+li {
+  /* O li possui duas caixas filhas (tag div de classe "details" e tag strong de classe "price"). Para colocar caixas filhas uma ao lado da outra, utilizar o display: flex; */
+  display: flex;
+}
+
+li .product-details {
+  max-width: 240px;
+}
+
+li .price {
+  margin-left: auto;
+}
